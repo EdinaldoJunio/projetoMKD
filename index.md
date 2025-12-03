@@ -1,1005 +1,794 @@
-Resumo das Aulas de Redes e Internet
+\# Resumo das Aulas de Redes e Internet
 
 
 
-Este documento resume os principais tópicos abordados em cada uma das 10 aulas, com base nos PDFs fornecidos.
+\## Aula 1 - Fundamentos de Redes
 
 
 
-Aula 1
+\### Conceitos Básicos
 
+\- Importância das redes de computadores na vida moderna
 
+\- Benefícios: eficiência, conveniência, escalabilidade e redundância
 
-•
+\- Compartilhamento de recursos e comunicação facilitada
 
-Importância das redes de computadores na vida moderna
 
 
+\### Topologias de Rede
 
-•
+\- \*\*Estrela\*\*: dispositivos conectados a um ponto central
 
-Benefícios das redes: eficiência, conveniência, escalabilidade e redundância
+\- \*\*Barramento\*\*: conexão linear compartilhada
 
+\- \*\*Anel\*\*: conexão circular entre dispositivos
 
+\- \*\*Malha\*\*: múltiplas conexões redundantes
 
-•
 
-Definição e função das redes de computadores
 
+\### Princípios de Comunicação
 
+\- Elementos essenciais: emissor, receptor, dados, meio e protocolos
 
-•
+\- Importância dos protocolos (TCP/IP)
 
-Compartilhamento de recursos e comunicação facilitada por redes
+\- Escalabilidade: crescimento sem perda de desempenho
 
 
 
-•
+---
 
-Conceitos fundamentais das redes: topologia, protocolos e escalabilidade
 
 
+\## Aula 2 - Protocolos de Comunicação
 
-•
 
-Topologias de rede: estrela, barramento, anel e malha
 
+\### Tipos de Protocolos
 
+1\. \*\*Protocolos de Rede\*\*: roteamento, endereçamento, encapsulamento
 
-•
+2\. \*\*Protocolos de Transporte\*\*: TCP (confiável) e UDP (rápido)
 
-Impacto das topologias na comunicação digital e na confiabilidade
+3\. \*\*Protocolos de Aplicação\*\*: HTTP, SMTP, FTP
 
 
 
-•
+\### RFC (Request for Comments)
 
-Critérios para escolha da topologia conforme necessidades organizacionais
+\- Papel fundamental na padronização da Internet
 
+\- Importância para inovação e referência técnica
 
+\- Principais RFCs: TCP, UDP, HTTP, HTTPS, SMTP
 
-•
 
-Princípios da comunicação em rede: emissor, receptor, dados, meio e protocolos
 
+---
 
 
-•
 
-Importância dos protocolos de comunicação, como TCP/IP
+\## Aula 3 - Endereçamento IP e Sub-redes
 
 
 
-•
+\### IPv4
 
-Escalabilidade em redes: capacidade de crescer sem perda de desempenho
+\- Estrutura em classes
 
+\- Endereços privados
 
+\- Escassez de endereços disponíveis
 
-•
 
-Princípios para alcançar escalabilidade: arquitetura adequada e redundância
 
+\### IPv6
 
+\- Formato expandido
 
-Aula 2
+\- Vantagens sobre IPv4
 
+\- Solução para escassez de endereços
 
 
-•
 
-Definição de protocolos de comunicação
+\### Sub-redes
 
+\- Máscaras de sub-rede para identificação
 
+\- Benefícios: desempenho, segurança, controle de tráfego
 
-•
+\- Ferramentas de análise: ping, traceroute
 
-Importância dos protocolos na transmissão de dados
 
 
+---
 
-•
 
-Tipos de protocolos de comunicação: Rede, Transporte e Aplicação
 
+\## Aula 4 - Serviços Web e APIs
 
 
-•
 
-Protocolos de Rede e suas funções: roteamento, endereçamento e encapsulamento
+\### APIs (Application Programming Interface)
 
+\- Definição e funcionamento
 
+\- Formatos de comunicação: JSON, XML
 
-•
+\- Integração entre sistemas
 
-Protocolos de Transporte: TCP e UDP e suas características
 
 
+\### Protocolos Web
 
-•
+| Protocolo | Características | Uso Ideal |
 
-Protocolos de Aplicação: HTTP, SMTP e FTP
+|-----------|----------------|-----------|
 
+| \*\*SOAP\*\* | Complexo, robusto, XML | Sistemas empresariais |
 
+| \*\*REST\*\* | Simples, leve, JSON | Aplicações web modernas |
 
-•
 
-RFC (Request for Comments) e seu papel na padronização da Internet
 
+\### Arquitetura de Microsserviços
 
+\*\*Características:\*\*
 
-•
+\- Desacoplamento de serviços
 
-Importância dos RFCs para inovação, resolução de problemas e referência técnica
+\- Independência tecnológica
 
+\- Escalabilidade horizontal
 
+\- Implantação contínua
 
-•
 
-Principais RFCs relacionados a protocolos importantes (TCP, UDP, HTTP, HTTPS, SMTP)
 
+\*\*Vantagens vs Desafios:\*\*
 
+\- ✅ Flexibilidade, agilidade, resiliência
 
-Aula 3
+\- ⚠️ Complexidade de comunicação, orquestração, monitoramento
 
 
 
-•
+\### Web 2.0
 
-Endereçamento IP e sub-redes
+\- Interação dinâmica com usuários
 
+\- Tecnologia AJAX
 
+\- Impacto das redes sociais
 
-•
 
-Protocolo IPv4: estrutura, classes e endereços privados
 
+---
 
 
-•
 
-Escassez de endereços IPv4 e transição para IPv6
+\## Aula 5 - Sistema DNS
 
 
 
-•
+\### Conceitos Fundamentais
 
-Protocolo IPv6: formato, estrutura e vantagens
+\- Tradução de nomes de domínio para endereços IP
 
+\- Estrutura hierárquica
 
+\- Domínios de topo (TLDs) e subdomínios
 
-•
 
-Máscaras de sub-rede: identificação de rede e dispositivos
 
+\### Tipos de Servidores DNS
 
+1\. \*\*Servidores de Resolução\*\*: atendem requisições dos clientes
 
-•
+2\. \*\*Servidores Autoritativos\*\*: armazenam registros de domínios
 
-Segmentação de redes: benefícios para desempenho, segurança e controle de tráfego
+3\. \*\*Servidores Raiz\*\*: topo da hierarquia DNS
 
 
 
-•
+\### Processo de Resolução
 
-Ferramentas de análise de rede: ping, traceroute e identificação de IP
+Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo → IP
 
 
 
-•
+---
 
-Funcionamento das portas associadas aos endereços IP
 
 
+\## Aula 6 - Infraestrutura da Internet
 
-Aula 4
 
 
+\### Arquitetura
 
-•
+\- Internet como "rede de redes"
 
-Serviços web e sua evolução na economia digital
+\- Estrutura descentralizada
 
+\- Backbones: espinha dorsal da conectividade
 
 
-•
 
-APIs: definição, funcionamento e importância na integração de sistemas
+\### Componentes Principais
 
+\- \*\*Backbones\*\*: cabos de fibra óptica e roteadores de alta capacidade
 
+\- \*\*IXPs\*\* (Pontos de Troca de Tráfego): otimização e redução de latência
 
-•
+\- Principais operadores globais e no Brasil
 
-Padrões e formatos de comunicação em APIs (JSON, XML)
 
 
+\### Desafios e Soluções
 
-•
+\*\*Problemas:\*\*
 
-Web Services: conceitos e arquitetura
+\- Congestionamento de tráfego
 
+\- Falhas de hardware
 
+\- Ataques cibernéticos
 
-•
 
-Protocolo SOAP: características, vantagens e aplicações
 
+\*\*Soluções:\*\*
 
+\- Redundância de rotas
 
-•
+\- Otimização de roteamento
 
-Protocolo REST: características, vantagens e aplicações
+\- Monitoramento constante
 
 
 
-•
+---
 
-Comparação entre SOAP e REST em termos de complexidade, desempenho, segurança e casos de uso
 
 
+\## Aula 7 - Classificação de Redes
 
-•
 
-Arquitetura de microsserviços: conceito e diferenciação da arquitetura monolítica
 
+\### Por Abrangência Geográfica
 
 
-•
 
-Características dos microsserviços: desacoplamento, independência tecnológica, escalabilidade, manutenção, implantação contínua e resistência a falhas
+| Tipo | Alcance | Aplicação |
 
+|------|---------|-----------|
 
+| \*\*PAN\*\* | Pessoal (metros) | Bluetooth, USB |
 
-•
+| \*\*LAN\*\* | Local (até 1 km) | Escritórios, residências |
 
-Vantagens dos microsserviços: flexibilidade, agilidade, escalabilidade, manutenção e resiliência
+| \*\*MAN\*\* | Metropolitana (cidade) | Redes municipais |
 
+| \*\*WAN\*\* | Longa distância (global) | Internet, intranets corporativas |
 
 
-•
 
-Desafios dos microsserviços: comunicação, gerenciamento, orquestração, testes e monitoramento
+\### Protocolos
 
+\- \*\*WAN\*\*: IP, BGP, MPLS, VPN, TCP/UDP
 
+\- \*\*MAN\*\*: Ethernet Metropolitana, ATM, SONET/SDH
 
-•
 
-Comunicação entre microsserviços via APIs e REST
 
+---
 
 
-•
 
-Aplicativos Web 2.0: conceito e transformação na interação web
+\## Aula 8 - Segurança de Redes
 
 
 
-•
+\### Principais Ameaças
 
-Tecnologias-chave da Web 2.0, especialmente AJAX
+\- \*\*Malware\*\*: vírus, trojans, ransomware
 
+\- \*\*Phishing\*\*: engenharia social
 
+\- \*\*DoS/DDoS\*\*: negação de serviço
 
-•
+\- \*\*Exploits\*\*: vulnerabilidades de software
 
-Impacto das redes sociais como parte da Web 2.0
+\- \*\*Injeção de código\*\*: SQL Injection, XSS
 
 
 
-Aula 5
+\### Impactos
 
+\- Interrupção de serviços
 
+\- Roubo de dados sensíveis
 
-•
+\- Comprometimento de integridade
 
-Conceitos fundamentais do DNS
+\- Prejuízos financeiros e reputacionais
 
 
 
-•
+\### Medidas de Proteção
 
-Importância do DNS na infraestrutura da internet
+1\. Atualizações regulares de software
 
+2\. Testes de penetração
 
+3\. Educação e conscientização de usuários
 
-•
+4\. Implementação de firewalls
 
-Evolução e aplicações do DNS
 
 
+\### Firewalls
 
-•
+\*\*Tipos:\*\*
 
-Definição e função do DNS
+\- Filtro de pacotes
 
+\- Stateful (inspeção de estado)
 
+\- Aplicação (camada 7)
 
-•
+\- Próxima geração (NGFW)
 
-Associação de nomes de domínio a endereços IP
 
 
+\*\*Funcionalidades:\*\*
 
-•
+\- Filtragem de tráfego
 
-Estrutura e hierarquia dos nomes de domínio
+\- NAT (Network Address Translation)
 
+\- Proxy e inspeção profunda
 
 
-•
 
-Domínios de topo (TLDs) e seus exemplos
+---
 
 
 
-•
+\## Aula 9 - Segurança na Web e Criptografia
 
-Subdomínios e sua organização
 
 
+\### HTTP vs HTTPS
 
-•
 
-Relação entre domínios e endereços IP
 
+| HTTP | HTTPS |
 
+|------|-------|
 
-•
+| ❌ Dados em texto claro | ✅ Dados criptografados |
 
-Exemplos variados de nomes de domínio
+| ❌ Vulnerável a interceptação | ✅ Confidencialidade |
 
+| ❌ Sem autenticação | ✅ Autenticação via certificado |
 
+| ❌ Sem integridade garantida | ✅ Integridade dos dados |
 
-•
 
-Funcionamento da estrutura hierárquica do DNS
 
+\### Ataques ao HTTP
 
+\- Sniffing (interceptação)
 
-•
+\- Man-in-the-Middle (MITM)
 
-Tipos de servidores DNS: servidores de resolução, autoritativos e raiz
+\- Falsificação de sites
 
+\- Roubo de credenciais
 
 
-•
 
-Função dos servidores de resolução DNS
+\### SSL/TLS
 
+\*\*Componentes:\*\*
 
+\- Certificados digitais
 
-•
+\- Autoridades Certificadoras (CAs)
 
-Função dos servidores autoritativos DNS
+\- Criptografia simétrica e assimétrica
 
+\- Algoritmos: RSA, AES, SHA
 
 
-•
 
-Função dos servidores raiz DNS
+\*\*Handshake SSL/TLS:\*\*
 
+1\. Cliente solicita conexão segura
 
+2\. Servidor envia certificado
 
-•
+3\. Verificação do certificado
 
-Interação entre os diferentes servidores DNS no processo de resolução
+4\. Troca de chaves
 
+5\. Estabelecimento de sessão criptografada
 
 
-•
 
-Processo de consultas e respostas DNS
+---
 
 
 
-•
+\## Aula 10 - Tendências e Desafios
 
-Funcionamento das consultas DNS em navegadores e dispositivos
 
 
+\### Internet das Coisas (IoT)
 
-Aula 6
+\*\*Características:\*\*
 
+\- Dispositivos conectados em larga escala
 
+\- Sensores e atuadores inteligentes
 
-•
+\- Integração com redes convencionais
 
-Arquitetura descentralizada da Internet
 
 
+\*\*Desafios:\*\*
 
-•
+\- Escalabilidade
 
-Internet como rede de redes
+\- Segurança
 
+\- Conectividade
 
 
-•
 
-Papel dos backbones na Internet
+\*\*Protocolos IoT:\*\*
 
+\- MQTT, CoAP, Zigbee, LoRaWAN
 
 
-•
 
-Função dos Pontos de Troca de Tráfego (IXPs)
+\### SDN (Redes Definidas por Software)
 
+\*\*Conceito:\*\*
 
+\- Desacoplamento do plano de controle e plano de dados
 
-•
+\- Gerenciamento centralizado
 
-Infraestrutura dos backbones: cabos de fibra óptica e roteadores
+\- Programabilidade da rede
 
 
 
-•
+\*\*Benefícios:\*\*
 
-Principais backbones globais e suas rotas intercontinentais
+\- Flexibilidade na configuração
 
+\- Automação
 
+\- Redução de custos operacionais
 
-•
 
-Backbones no Brasil e principais operadores
 
+\*\*Casos de uso:\*\*
 
+\- Data centers
 
-•
+\- Provedores de serviço
 
-Conceito e impacto da latência de rede
+\- Ambientes corporativos
 
 
 
-•
+\### Web 3.0 e Blockchain
 
-Problemas enfrentados pelos backbones: congestionamento, falhas de hardware e ataques cibernéticos
+\- Descentralização de dados
 
+\- Contratos inteligentes
 
+\- Segurança aprimorada
 
-•
 
-Soluções para problemas nos backbones: redundância, otimização de roteamento e monitoramento constante
 
+---
 
 
-•
 
-Colaboração entre backbones e IXPs para otimização do tráfego
+\# Módulo 02 - Controle de Versão com Git e GitHub
 
 
 
-•
+\## Aula 01 - Fundamentos do Git
 
-Importância dos IXPs na redução da latência e melhoria do desempenho da Internet
 
 
+\### O que é Git?
 
-Aula 7
+Sistema de controle de versão distribuído para rastreamento de mudanças no código.
 
 
 
-•
+\### Conceitos Principais
 
-Classificação de redes de computadores por abrangência geográfica
+\- \*\*Repositório\*\*: local de armazenamento do projeto e histórico
 
+\- \*\*Commit\*\*: snapshot do estado do projeto em um momento
 
+\- \*\*Staging Area\*\*: área intermediária antes do commit
 
-•
 
-Redes de Área Local (LAN): características e aplicações
 
+\### Instalação
 
+\- \*\*Windows\*\*: instalação nativa ou via WSL
 
-•
+\- \*\*Linux/macOS\*\*: gerenciadores de pacote (apt, brew)
 
-Redes de Longa Distância (WAN): características, aplicações e tecnologias
 
 
+\### Comandos Básicos
 
-•
+```bash
 
-Redes de Área Metropolitana (MAN): definição, aplicações e tecnologias
+git init          # Inicializa repositório
 
+git add           # Adiciona arquivos ao staging
 
+git commit        # Cria snapshot do projeto
 
-•
+git status        # Verifica estado dos arquivos
 
-Redes de Área Pessoal (PAN): características e exemplos de uso
+git log           # Visualiza histórico de commits
 
+```
 
 
-•
 
-Comparação entre LAN e WAN em termos de escala, alcance e características
+\### Integração com VSCode
 
+\- Git nativo integrado
 
+\- Extensão GitLens para visualização avançada
 
-•
+\- Terminal integrado para comandos
 
-Protocolos utilizados em WANs: IP, BGP, MPLS, Frame Relay, ATM, PPP, PPPoE, VPN, TCP e UDP
 
 
+---
 
-•
 
-Protocolos e tecnologias em MANs: Ethernet Metropolitana, ATM, SONET e SDH
 
+\## Aula 02 - Branches
 
 
-Aula 8
 
+\### Conceito
 
+Linhas paralelas de desenvolvimento que permitem trabalhar em funcionalidades isoladas.
 
-•
 
-Conceitos básicos de segurança de redes
 
+\### Branch Master/Main
 
+\- Versão de produção
 
-•
+\- Código estável e testado
 
-Principais ameaças à segurança de redes
+\- Não deve conter commits experimentais
 
 
 
-•
+\### Fluxo de Trabalho
 
-Malware e suas formas de propagação
+1\. Criar branch para nova funcionalidade
 
+2\. Desenvolver e testar isoladamente
 
+3\. Fazer merge quando estável
 
-•
 
-Ataques de phishing e engenharia social
 
+\### Comandos
 
+```bash
 
-•
+git branch nome-branch      # Cria nova branch
 
-Ataques de negação de serviço (DoS)
+git checkout nome-branch    # Muda para a branch
 
+git checkout -b nome-branch # Cria e muda para branch
 
+```
 
-•
 
-Vulnerabilidades de software e sua exploração
 
+\### Boas Práticas
 
+\- ✅ Criar branches para cada funcionalidade
 
-•
+\- ✅ Manter master sempre estável
 
-Ataques de interceptação de dados
+\- ✅ Nomear branches descritivamente
 
+\- ❌ Evitar commits de rascunho na master
 
 
-•
 
-Roubo de identidade e ameaças internas
+---
 
 
 
-•
+\## Aula 03 - Repositórios Remotos e GitHub
 
-Backdoors, exploits e injeção de código
 
 
+\### Repositório Remoto
 
-•
+Versão do projeto hospedada em servidor, permitindo:
 
-Identificação e análise de vulnerabilidades
+\- Backup automático
 
+\- Colaboração entre desenvolvedores
 
+\- Sincronização entre máquinas
 
-•
 
-Exploração de falhas de software, incluindo zero-day e buffer overflow
 
+\### Comandos Remotos
 
+```bash
 
-•
+git clone url        # Copia repositório remoto
 
-Ataques dirigidos e malware camuflado
+git fetch           # Busca atualizações sem integrar
 
+git push            # Envia commits locais para remoto
 
+git pull            # Busca e integra atualizações
 
-•
+```
 
-Técnicas de injeção de código: SQL Injection e XSS
 
 
+\### Plataformas de Hospedagem
 
-•
+\- \*\*GitHub\*\*: mais popular, integração com Actions
 
-Impactos das vulnerabilidades nas operações de rede
+\- \*\*GitLab\*\*: CI/CD integrado
 
+\- \*\*Bitbucket\*\*: integração com Atlassian
 
 
-•
 
-Interrupção de serviços e acesso não autorizado
+\### Segurança no GitHub
 
+\- Autenticação de dois fatores (2FA)
 
+\- Tokens de acesso pessoal
 
-•
+\- Chaves SSH
 
-Roubo e exfiltração de dados sensíveis
+\- Evitar senhas em texto claro
 
 
 
-•
+---
 
-Comprometimento da integridade dos dados
 
 
+\## Aula 04 - Pull Requests
 
-•
 
-Disseminação lateral de malware
 
+\### Conceito
 
+Proposta de mudanças que permite revisão antes da integração ao código principal.
 
-•
 
-Prejuízos financeiros e danos à reputação
 
+\### Benefícios
 
 
-•
 
-Medidas de prevenção e mitigação de riscos
+\*\*Comunicação:\*\*
 
+\- Discussões integradas
 
+\- Comentários em linhas específicas
 
-•
+\- Histórico de decisões
 
-Importância das atualizações regulares e testes de penetração
 
 
+\*\*Organização:\*\*
 
-•
+\- Aprovações obrigatórias
 
-Conscientização e educação dos usuários
+\- Testes automatizados
 
+\- Proteção de branches
 
 
-•
 
-Função e importância dos firewalls na segurança de redes
+\*\*Automação:\*\*
 
+\- Integração com CI/CD
 
+\- GitHub Actions
 
-•
+\- Verificações automáticas
 
-Divisão de redes em zonas de segurança
 
 
+\### Fluxo de Pull Request
 
-•
+1\. Criar branch e fazer commits
 
-Tipos de firewalls: pacotes, estado, aplicação e próxima geração
+2\. Push da branch para repositório remoto
 
+3\. Abrir Pull Request no GitHub
 
+4\. Revisão e discussão
 
-•
+5\. Aprovação e merge
 
-Funcionalidades principais dos firewalls: filtragem, NAT e proxy
 
 
+\### Resolução de Conflitos
 
-Aula 9
+\*\*Ferramentas:\*\*
 
+\- Interface "Files Changed" do GitHub
 
+\- `git diff branch1..branch2` (dois pontos)
 
-•
+\- `git diff branch1...branch2` (três pontos)
 
-Segurança na web e criptografia
 
 
+\*\*Diferenças:\*\*
 
-•
+\- \*\*Dois pontos (..)\*\*: todas as diferenças entre branches
 
-Protocolo HTTP e suas vulnerabilidades
+\- \*\*Três pontos (...)\*\*: diferenças desde o ancestral comum
 
 
 
-•
+\### Processo de Revisão
 
-Evolução para HTTPS e suas vantagens
+\- Análise de código
 
+\- Sugestões de melhorias
 
+\- Aprovação obrigatória
 
-•
+\- Merge após aprovação
 
-Confidencialidade, autenticação e integridade dos dados
 
 
+---
 
-•
 
-Ataques comuns ao HTTP: sniffing, Man-in-the-Middle, falsificação e roubo de credenciais
 
+\## Resumo Final
 
 
-•
 
-Mecanismos de comunicação segura no HTTPS
+\### Redes e Internet
 
+Abordamos desde fundamentos de redes e protocolos até tendências modernas como IoT e SDN, passando por segurança, infraestrutura e serviços web.
 
 
-•
 
-Certificados digitais e Autoridades Certificadoras (CAs)
+\### Git e GitHub
 
-
-
-•
-
-Protocolos SSL e TLS: criptografia simétrica e assimétrica
-
-
-
-•
-
-Algoritmos criptográficos usados no SSL/TLS
-
-
-
-•
-
-Handshake SSL/TLS: processo de autenticação e estabelecimento de chave
-
-
-
-•
-
-Papel das Autoridades Certificadoras na emissão de certificados
-
-
-
-Aula 10
-
-
-
-•
-
-Tendências e desafios nas redes modernas
-
-
-
-•
-
-Internet das Coisas (IoT) e sua influência nas redes
-
-
-
-•
-
-Exemplos práticos de dispositivos IoT
-
-
-
-•
-
-Integração da IoT em redes convencionais
-
-
-
-•
-
-Desafios de conectividade e escalabilidade na IoT
-
-
-
-•
-
-Protocolos comuns para comunicação na IoT
-
-
-
-•
-
-Redes Definidas por Software (SDN) e seus conceitos
-
-
-
-•
-
-Desacoplamento do plano de controle e plano de dados em SDN
-
-
-
-•
-
-Arquiteturas e componentes principais da SDN
-
-
-
-•
-
-Aplicações e benefícios da SDN
-
-
-
-•
-
-Casos de uso da SDN em ambientes empresariais e provedores de serviço
-
-
-
-•
-
-Web 3.0 e blockchain: descentralização e segurança
-
-
-Resumo do Módulo 02 - Controle de Versão com Git e GitHub
-
-Este documento resume os principais tópicos abordados nas 4 aulas do Módulo 02.
-
-
-
-Aula 01
-
-•
-Conceito de sistema de controle de versão
-
-•
-Definição e funcionalidades do Git
-
-•
-Repositório Git e sua função
-
-•
-Commit e sua importância no controle de versão
-
-•
-Instalação do Git em diferentes sistemas operacionais
-
-•
-Instalação nativa do Git no Windows
-
-•
-Instalação do Git via Windows Subsystem for Linux (WSL)
-
-•
-Instalação do Git no Linux e macOS
-
-•
-Configuração inicial do Git (nome, email, editor, etc.)
-
-•
-Fluxo de trabalho básico com Git (git init, add, commit, status, log)
-
-•
-Gerenciamento de arquivos no Git (adicionar, deletar, renomear, mover)
-
-•
-Ignorar arquivos e manipular mudanças no índice (staging area)
-
-•
-Comparação de versões e remendos de commits
-
-•
-Uso do Visual Studio Code com Git
-
-•
-Funcionalidades Git integradas no VSCode
-
-•
-Extensão GitLens para histórico e detalhes de commits
-
-•
-Conceito e uso do terminal para comandos Git
-
-
-
-Aula 02
-
-•
-Conceito de branch no Git
-
-•
-Diferença entre branch e tag
-
-•
-Branch master como versão de produção
-
-•
-Branches para versões de rascunho
-
-•
-Criação de branches com git branch
-
-•
-Uso de branches para desenvolvimento paralelo
-
-•
-Fluxo de trabalho com branches para testar versões diferentes
-
-•
-Comandos git checkout e git commit relacionados a branches
-
-•
-Visualização e gerenciamento de branches no VSCode com GitLens
-
-•
-Criação de branch em commits específicos
-
-•
-Importância de não avançar a branch master com commits de rascunho
-
-
-
-Aula 03
-
-•
-Conceito de repositório remoto no Git
-
-•
-Processo de conexão entre repositório local e remoto
-
-•
-Uso do repositório remoto como backup
-
-•
-Funcionamento da sincronização entre repositórios locais e remotos
-
-•
-Principais comandos Git para comunicação com repositórios remotos (clone, fetch, push, pull)
-
-•
-Serviços de hospedagem de repositórios Git (GitHub, GitLab, Bitbucket)
-
-•
-Características e funcionalidades do GitHub
-
-•
-Criação de conta no GitHub
-
-•
-Segurança na autenticação do GitHub, incluindo vulnerabilidades de senha
-
-•
-Configuração de autenticação de dois fatores (2FA) no GitHub
-
-
-
-Aula 04
-
-•
-Conceito e fluxo de Pull Request
-
-•
-Benefícios do Pull Request: Comunicação, Organização e Automação
-
-•
-Comunicação integrada no Pull Request via GitHub
-
-•
-Organização e restrições para merges com aprovações e testes
-
-•
-Automação de processos e integração com GitHub Actions
-
-•
-Passos para criação e solicitação de Pull Request
-
-•
-Identificação e resolução de conflitos em Pull Requests
-
-•
-Ferramentas de comparação de branches no GitHub (Files Changed)
-
-•
-Comando git diff para comparação de branches (dois pontos e três pontos)
-
-•
-Diferenças entre comparações de dois pontos e três pontos no git
-
-•
-Processo de revisão de Pull Requests e aprovação obrigatória
-
-•
-Comentários e sugestões de alterações durante a revisão
-
-
+Exploramos o controle de versão com Git, desde conceitos básicos até colaboração avançada com branches, repositórios remotos e Pull Requests.
 

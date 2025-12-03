@@ -1,68 +1,40 @@
-\# Resumo das Aulas de Redes e Internet
+# Resumo das Aulas de Redes e Internet
 
 
 
-\## Aula 1 - Fundamentos de Redes
+## Aula 1 - Fundamentos de Redes
 
 
 
-\### Conceitos Básicos
+### Conceitos Básicos
 
-\- Importância das redes de computadores na vida moderna
+- Importância das redes de computadores na vida moderna
 
-\- Benefícios: eficiência, conveniência, escalabilidade e redundância
+- Benefícios: eficiência, conveniência, escalabilidade e redundância
 
-\- Compartilhamento de recursos e comunicação facilitada
-
-
-
-\### Topologias de Rede
-
-\- \*\*Estrela\*\*: dispositivos conectados a um ponto central
-
-\- \*\*Barramento\*\*: conexão linear compartilhada
-
-\- \*\*Anel\*\*: conexão circular entre dispositivos
-
-\- \*\*Malha\*\*: múltiplas conexões redundantes
+- Compartilhamento de recursos e comunicação facilitada
 
 
 
-\### Princípios de Comunicação
+### Topologias de Rede
 
-\- Elementos essenciais: emissor, receptor, dados, meio e protocolos
+- **Estrela**: dispositivos conectados a um ponto central
 
-\- Importância dos protocolos (TCP/IP)
+- **Barramento**: conexão linear compartilhada
 
-\- Escalabilidade: crescimento sem perda de desempenho
+- **Anel**: conexão circular entre dispositivos
 
-
-
----
+- **Malha**: múltiplas conexões redundantes
 
 
 
-\## Aula 2 - Protocolos de Comunicação
+### Princípios de Comunicação
 
+- Elementos essenciais: emissor, receptor, dados, meio e protocolos
 
+- Importância dos protocolos (TCP/IP)
 
-\### Tipos de Protocolos
-
-1\. \*\*Protocolos de Rede\*\*: roteamento, endereçamento, encapsulamento
-
-2\. \*\*Protocolos de Transporte\*\*: TCP (confiável) e UDP (rápido)
-
-3\. \*\*Protocolos de Aplicação\*\*: HTTP, SMTP, FTP
-
-
-
-\### RFC (Request for Comments)
-
-\- Papel fundamental na padronização da Internet
-
-\- Importância para inovação e referência técnica
-
-\- Principais RFCs: TCP, UDP, HTTP, HTTPS, SMTP
+- Escalabilidade: crescimento sem perda de desempenho
 
 
 
@@ -70,37 +42,65 @@
 
 
 
-\## Aula 3 - Endereçamento IP e Sub-redes
+## Aula 2 - Protocolos de Comunicação
+
+
+
+### Tipos de Protocolos
+
+1. **Protocolos de Rede**: roteamento, endereçamento, encapsulamento
+
+2. **Protocolos de Transporte**: TCP (confiável) e UDP (rápido)
+
+3. **Protocolos de Aplicação**: HTTP, SMTP, FTP
+
+
+
+### RFC (Request for Comments)
+
+- Papel fundamental na padronização da Internet
+
+- Importância para inovação e referência técnica
+
+- Principais RFCs: TCP, UDP, HTTP, HTTPS, SMTP
+
+
+
+---
+
+
+
+## Aula 3 - Endereçamento IP e Sub-redes
 
 
 
 \### IPv4
 
-\- Estrutura em classes
+- Estrutura em classes
 
-\- Endereços privados
+- Endereços privados
 
-\- Escassez de endereços disponíveis
-
-
-
-\### IPv6
-
-\- Formato expandido
-
-\- Vantagens sobre IPv4
-
-\- Solução para escassez de endereços
+- Escassez de endereços disponíveis
 
 
 
-\### Sub-redes
+### IPv6
 
-\- Máscaras de sub-rede para identificação
+- Formato expandido
 
-\- Benefícios: desempenho, segurança, controle de tráfego
+- Vantagens sobre IPv4
 
-\- Ferramentas de análise: ping, traceroute
+- Solução para escassez de endereços
+
+
+
+### Sub-redes
+
+- Máscaras de sub-rede para identificação
+
+- Benefícios: desempenho, segurança, controle de tráfego
+
+- Ferramentas de análise: ping, traceroute
 
 
 
@@ -108,61 +108,61 @@
 
 
 
-\## Aula 4 - Serviços Web e APIs
+## Aula 4 - Serviços Web e APIs
 
 
 
-\### APIs (Application Programming Interface)
+### APIs (Application Programming Interface)
 
-\- Definição e funcionamento
+- Definição e funcionamento
 
-\- Formatos de comunicação: JSON, XML
+- Formatos de comunicação: JSON, XML
 
-\- Integração entre sistemas
+- Integração entre sistemas
 
 
 
-\### Protocolos Web
+### Protocolos Web
 
 | Protocolo | Características | Uso Ideal |
 
 |-----------|----------------|-----------|
 
-| \*\*SOAP\*\* | Complexo, robusto, XML | Sistemas empresariais |
+| **SOAP** | Complexo, robusto, XML | Sistemas empresariais |
 
-| \*\*REST\*\* | Simples, leve, JSON | Aplicações web modernas |
-
-
-
-\### Arquitetura de Microsserviços
-
-\*\*Características:\*\*
-
-\- Desacoplamento de serviços
-
-\- Independência tecnológica
-
-\- Escalabilidade horizontal
-
-\- Implantação contínua
+| **REST** | Simples, leve, JSON | Aplicações web modernas |
 
 
 
-\*\*Vantagens vs Desafios:\*\*
+### Arquitetura de Microsserviços
 
-\- ✅ Flexibilidade, agilidade, resiliência
+**Características:**
 
-\- ⚠️ Complexidade de comunicação, orquestração, monitoramento
+- Desacoplamento de serviços
+
+- Independência tecnológica
+
+- Escalabilidade horizontal
+
+- Implantação contínua
 
 
 
-\### Web 2.0
+**Vantagens vs Desafios:**
 
-\- Interação dinâmica com usuários
+- ✅ Flexibilidade, agilidade, resiliência
 
-\- Tecnologia AJAX
+- ⚠️ Complexidade de comunicação, orquestração, monitoramento
 
-\- Impacto das redes sociais
+
+
+### Web 2.0
+
+- Interação dinâmica com usuários
+
+- Tecnologia AJAX
+
+- Impacto das redes sociais
 
 
 
@@ -170,31 +170,31 @@
 
 
 
-\## Aula 5 - Sistema DNS
+## Aula 5 - Sistema DNS
 
 
 
-\### Conceitos Fundamentais
+### Conceitos Fundamentais
 
-\- Tradução de nomes de domínio para endereços IP
+- Tradução de nomes de domínio para endereços IP
 
-\- Estrutura hierárquica
+- Estrutura hierárquica
 
-\- Domínios de topo (TLDs) e subdomínios
-
-
-
-\### Tipos de Servidores DNS
-
-1\. \*\*Servidores de Resolução\*\*: atendem requisições dos clientes
-
-2\. \*\*Servidores Autoritativos\*\*: armazenam registros de domínios
-
-3\. \*\*Servidores Raiz\*\*: topo da hierarquia DNS
+- Domínios de topo (TLDs) e subdomínios
 
 
 
-\### Processo de Resolução
+### Tipos de Servidores DNS
+
+1. **Servidores de Resolução**: atendem requisições dos clientes
+
+2. **Servidores Autoritativos**: armazenam registros de domínios
+
+3. **Servidores Raiz**: topo da hierarquia DNS
+
+
+
+### Processo de Resolução
 
 Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo → IP
 
@@ -208,45 +208,45 @@ Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo �
 
 
 
-\### Arquitetura
+### Arquitetura
 
-\- Internet como "rede de redes"
+- Internet como "rede de redes"
 
-\- Estrutura descentralizada
+- Estrutura descentralizada
 
-\- Backbones: espinha dorsal da conectividade
-
-
-
-\### Componentes Principais
-
-\- \*\*Backbones\*\*: cabos de fibra óptica e roteadores de alta capacidade
-
-\- \*\*IXPs\*\* (Pontos de Troca de Tráfego): otimização e redução de latência
-
-\- Principais operadores globais e no Brasil
+- Backbones: espinha dorsal da conectividade
 
 
 
-\### Desafios e Soluções
+### Componentes Principais
 
-\*\*Problemas:\*\*
+- **Backbones**: cabos de fibra óptica e roteadores de alta capacidade
 
-\- Congestionamento de tráfego
+- **IXPs** (Pontos de Troca de Tráfego): otimização e redução de latência
 
-\- Falhas de hardware
-
-\- Ataques cibernéticos
+- Principais operadores globais e no Brasil
 
 
 
-\*\*Soluções:\*\*
+### Desafios e Soluções
 
-\- Redundância de rotas
+**Problemas:**
 
-\- Otimização de roteamento
+- Congestionamento de tráfego
 
-\- Monitoramento constante
+- Falhas de hardware
+
+- Ataques cibernéticos
+
+
+
+**Soluções:**
+
+- Redundância de rotas
+
+- Otimização de roteamento
+
+- Monitoramento constante
 
 
 
@@ -254,11 +254,11 @@ Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo �
 
 
 
-\## Aula 7 - Classificação de Redes
+## Aula 7 - Classificação de Redes
 
 
 
-\### Por Abrangência Geográfica
+### Por Abrangência Geográfica
 
 
 
@@ -266,91 +266,21 @@ Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo �
 
 |------|---------|-----------|
 
-| \*\*PAN\*\* | Pessoal (metros) | Bluetooth, USB |
+| **PAN** | Pessoal (metros) | Bluetooth, USB |
 
-| \*\*LAN\*\* | Local (até 1 km) | Escritórios, residências |
+| **LAN** | Local (até 1 km) | Escritórios, residências |
 
-| \*\*MAN\*\* | Metropolitana (cidade) | Redes municipais |
+| **MAN** | Metropolitana (cidade) | Redes municipais |
 
-| \*\*WAN\*\* | Longa distância (global) | Internet, intranets corporativas |
-
-
-
-\### Protocolos
-
-\- \*\*WAN\*\*: IP, BGP, MPLS, VPN, TCP/UDP
-
-\- \*\*MAN\*\*: Ethernet Metropolitana, ATM, SONET/SDH
+| **WAN** | Longa distância (global) | Internet, intranets corporativas |
 
 
 
----
+### Protocolos
 
+- **WAN**: IP, BGP, MPLS, VPN, TCP/UDP
 
-
-\## Aula 8 - Segurança de Redes
-
-
-
-\### Principais Ameaças
-
-\- \*\*Malware\*\*: vírus, trojans, ransomware
-
-\- \*\*Phishing\*\*: engenharia social
-
-\- \*\*DoS/DDoS\*\*: negação de serviço
-
-\- \*\*Exploits\*\*: vulnerabilidades de software
-
-\- \*\*Injeção de código\*\*: SQL Injection, XSS
-
-
-
-\### Impactos
-
-\- Interrupção de serviços
-
-\- Roubo de dados sensíveis
-
-\- Comprometimento de integridade
-
-\- Prejuízos financeiros e reputacionais
-
-
-
-\### Medidas de Proteção
-
-1\. Atualizações regulares de software
-
-2\. Testes de penetração
-
-3\. Educação e conscientização de usuários
-
-4\. Implementação de firewalls
-
-
-
-\### Firewalls
-
-\*\*Tipos:\*\*
-
-\- Filtro de pacotes
-
-\- Stateful (inspeção de estado)
-
-\- Aplicação (camada 7)
-
-\- Próxima geração (NGFW)
-
-
-
-\*\*Funcionalidades:\*\*
-
-\- Filtragem de tráfego
-
-\- NAT (Network Address Translation)
-
-\- Proxy e inspeção profunda
+- **MAN**: Ethernet Metropolitana, ATM, SONET/SDH
 
 
 
@@ -358,11 +288,81 @@ Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo �
 
 
 
-\## Aula 9 - Segurança na Web e Criptografia
+## Aula 8 - Segurança de Redes
 
 
 
-\### HTTP vs HTTPS
+### Principais Ameaças
+
+- **Malware**: vírus, trojans, ransomware
+
+- **Phishing**: engenharia social
+
+- **DoS/DDoS**: negação de serviço
+
+- **Exploits**: vulnerabilidades de software
+
+- **Injeção de código**: SQL Injection, XSS
+
+
+
+### Impactos
+
+- Interrupção de serviços
+
+- Roubo de dados sensíveis
+
+- Comprometimento de integridade
+
+- Prejuízos financeiros e reputacionais
+
+
+
+### Medidas de Proteção
+
+1. Atualizações regulares de software
+
+2. Testes de penetração
+
+3. Educação e conscientização de usuários
+
+4. Implementação de firewalls
+
+
+
+### Firewalls
+
+**Tipos:**
+
+- Filtro de pacotes
+
+- Stateful (inspeção de estado)
+
+- Aplicação (camada 7)
+
+- Próxima geração (NGFW)
+
+
+
+**Funcionalidades:**
+
+- Filtragem de tráfego
+
+- NAT (Network Address Translation)
+
+- Proxy e inspeção profunda
+
+
+
+---
+
+
+
+## Aula 9 - Segurança na Web e Criptografia
+
+
+
+### HTTP vs HTTPS
 
 
 
@@ -382,41 +382,41 @@ Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo �
 
 \### Ataques ao HTTP
 
-\- Sniffing (interceptação)
+- Sniffing (interceptação)
 
-\- Man-in-the-Middle (MITM)
+- Man-in-the-Middle (MITM)
 
-\- Falsificação de sites
+- Falsificação de sites
 
-\- Roubo de credenciais
-
-
-
-\### SSL/TLS
-
-\*\*Componentes:\*\*
-
-\- Certificados digitais
-
-\- Autoridades Certificadoras (CAs)
-
-\- Criptografia simétrica e assimétrica
-
-\- Algoritmos: RSA, AES, SHA
+- Roubo de credenciais
 
 
 
-\*\*Handshake SSL/TLS:\*\*
+### SSL/TLS
 
-1\. Cliente solicita conexão segura
+**Componentes:**
 
-2\. Servidor envia certificado
+- Certificados digitais
 
-3\. Verificação do certificado
+- Autoridades Certificadoras (CAs)
 
-4\. Troca de chaves
+- Criptografia simétrica e assimétrica
 
-5\. Estabelecimento de sessão criptografada
+- Algoritmos: RSA, AES, SHA
+
+
+
+**Handshake SSL/TLS:**
+
+1. Cliente solicita conexão segura
+
+2. Servidor envia certificado
+
+3. Verificação do certificado
+
+4. Troca de chaves
+
+5. Estabelecimento de sessão criptografada
 
 
 
@@ -424,77 +424,77 @@ Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo �
 
 
 
-\## Aula 10 - Tendências e Desafios
+## Aula 10 - Tendências e Desafios
 
 
 
-\### Internet das Coisas (IoT)
+### Internet das Coisas (IoT)
 
-\*\*Características:\*\*
+**Características:**
 
-\- Dispositivos conectados em larga escala
+- Dispositivos conectados em larga escala
 
-\- Sensores e atuadores inteligentes
+- Sensores e atuadores inteligentes
 
-\- Integração com redes convencionais
-
-
-
-\*\*Desafios:\*\*
-
-\- Escalabilidade
-
-\- Segurança
-
-\- Conectividade
+- Integração com redes convencionais
 
 
 
-\*\*Protocolos IoT:\*\*
+**Desafios:**
 
-\- MQTT, CoAP, Zigbee, LoRaWAN
+- Escalabilidade
 
+- Segurança
 
-
-\### SDN (Redes Definidas por Software)
-
-\*\*Conceito:\*\*
-
-\- Desacoplamento do plano de controle e plano de dados
-
-\- Gerenciamento centralizado
-
-\- Programabilidade da rede
+- Conectividade
 
 
 
-\*\*Benefícios:\*\*
+**Protocolos IoT:**
 
-\- Flexibilidade na configuração
-
-\- Automação
-
-\- Redução de custos operacionais
+- MQTT, CoAP, Zigbee, LoRaWAN
 
 
 
-\*\*Casos de uso:\*\*
+### SDN (Redes Definidas por Software)
 
-\- Data centers
+**Conceito:**
 
-\- Provedores de serviço
+- Desacoplamento do plano de controle e plano de dados
 
-\- Ambientes corporativos
+- Gerenciamento centralizado
+
+- Programabilidade da rede
 
 
 
-\### Web 3.0 e Blockchain
+**Benefícios:**
 
-\- Descentralização de dados
+- Flexibilidade na configuração
 
-\- Contratos inteligentes
+- Automação
 
-\- Segurança aprimorada
+- Redução de custos operacionais
+
+
+
+**Casos de uso:**
+
+- Data centers
+
+- Provedores de serviço
+
+- Ambientes corporativos
+
+
+
+### Web 3.0 e Blockchain
+
+- Descentralização de dados
+
+- Contratos inteligentes
+
+- Segurança aprimorada
 
 
 
@@ -502,39 +502,39 @@ Navegador → Servidor Resolução → Servidor Raiz → Servidor Autoritativo �
 
 
 
-\# Módulo 02 - Controle de Versão com Git e GitHub
+# Módulo 02 - Controle de Versão com Git e GitHub
 
 
 
-\## Aula 01 - Fundamentos do Git
+## Aula 01 - Fundamentos do Git
 
 
 
-\### O que é Git?
+### O que é Git?
 
 Sistema de controle de versão distribuído para rastreamento de mudanças no código.
 
 
 
-\### Conceitos Principais
+### Conceitos Principais
 
-\- \*\*Repositório\*\*: local de armazenamento do projeto e histórico
+- **Repositório**: local de armazenamento do projeto e histórico
 
-\- \*\*Commit\*\*: snapshot do estado do projeto em um momento
+- **Commit**: snapshot do estado do projeto em um momento
 
-\- \*\*Staging Area\*\*: área intermediária antes do commit
-
-
-
-\### Instalação
-
-\- \*\*Windows\*\*: instalação nativa ou via WSL
-
-\- \*\*Linux/macOS\*\*: gerenciadores de pacote (apt, brew)
+- **Staging Area**: área intermediária antes do commit
 
 
 
-\### Comandos Básicos
+### Instalação
+
+- **Windows**: instalação nativa ou via WSL
+
+- **Linux/macOS**: gerenciadores de pacote (apt, brew)
+
+
+
+### Comandos Básicos
 
 ```bash
 
@@ -552,13 +552,13 @@ git log           # Visualiza histórico de commits
 
 
 
-\### Integração com VSCode
+### Integração com VSCode
 
-\- Git nativo integrado
+- Git nativo integrado
 
-\- Extensão GitLens para visualização avançada
+- Extensão GitLens para visualização avançada
 
-\- Terminal integrado para comandos
+- Terminal integrado para comandos
 
 
 
@@ -566,37 +566,37 @@ git log           # Visualiza histórico de commits
 
 
 
-\## Aula 02 - Branches
+## Aula 02 - Branches
 
 
 
-\### Conceito
+### Conceito
 
 Linhas paralelas de desenvolvimento que permitem trabalhar em funcionalidades isoladas.
 
 
 
-\### Branch Master/Main
+### Branch Master/Main
 
-\- Versão de produção
+- Versão de produção
 
-\- Código estável e testado
+- Código estável e testado
 
-\- Não deve conter commits experimentais
-
-
-
-\### Fluxo de Trabalho
-
-1\. Criar branch para nova funcionalidade
-
-2\. Desenvolver e testar isoladamente
-
-3\. Fazer merge quando estável
+- Não deve conter commits experimentais
 
 
 
-\### Comandos
+### Fluxo de Trabalho
+
+1. Criar branch para nova funcionalidade
+
+2. Desenvolver e testar isoladamente
+
+3. Fazer merge quando estável
+
+
+
+### Comandos
 
 ```bash
 
@@ -610,15 +610,15 @@ git checkout -b nome-branch # Cria e muda para branch
 
 
 
-\### Boas Práticas
+### Boas Práticas
 
-\- ✅ Criar branches para cada funcionalidade
+- ✅ Criar branches para cada funcionalidade
 
-\- ✅ Manter master sempre estável
+- ✅ Manter master sempre estável
 
-\- ✅ Nomear branches descritivamente
+- ✅ Nomear branches descritivamente
 
-\- ❌ Evitar commits de rascunho na master
+- ❌ Evitar commits de rascunho na master
 
 
 
@@ -626,23 +626,23 @@ git checkout -b nome-branch # Cria e muda para branch
 
 
 
-\## Aula 03 - Repositórios Remotos e GitHub
+## Aula 03 - Repositórios Remotos e GitHub
 
 
 
-\### Repositório Remoto
+### Repositório Remoto
 
 Versão do projeto hospedada em servidor, permitindo:
 
-\- Backup automático
+- Backup automático
 
-\- Colaboração entre desenvolvedores
+- Colaboração entre desenvolvedores
 
-\- Sincronização entre máquinas
+- Sincronização entre máquinas
 
 
 
-\### Comandos Remotos
+### Comandos Remotos
 
 ```bash
 
@@ -658,25 +658,25 @@ git pull            # Busca e integra atualizações
 
 
 
-\### Plataformas de Hospedagem
+### Plataformas de Hospedagem
 
-\- \*\*GitHub\*\*: mais popular, integração com Actions
+- **GitHub**: mais popular, integração com Actions
 
-\- \*\*GitLab\*\*: CI/CD integrado
+- **GitLab**: CI/CD integrado
 
-\- \*\*Bitbucket\*\*: integração com Atlassian
+- **Bitbucket**: integração com Atlassian
 
 
 
-\### Segurança no GitHub
+### Segurança no GitHub
 
-\- Autenticação de dois fatores (2FA)
+- Autenticação de dois fatores (2FA)
 
-\- Tokens de acesso pessoal
+- Tokens de acesso pessoal
 
-\- Chaves SSH
+- Chaves SSH
 
-\- Evitar senhas em texto claro
+- Evitar senhas em texto claro
 
 
 
@@ -684,111 +684,110 @@ git pull            # Busca e integra atualizações
 
 
 
-\## Aula 04 - Pull Requests
+## Aula 04 - Pull Requests
 
 
 
-\### Conceito
+### Conceito
 
 Proposta de mudanças que permite revisão antes da integração ao código principal.
 
 
 
-\### Benefícios
+### Benefícios
 
 
 
-\*\*Comunicação:\*\*
+**Comunicação:**
 
-\- Discussões integradas
+- Discussões integradas
 
-\- Comentários em linhas específicas
+- Comentários em linhas específicas
 
-\- Histórico de decisões
-
-
-
-\*\*Organização:\*\*
-
-\- Aprovações obrigatórias
-
-\- Testes automatizados
-
-\- Proteção de branches
+- Histórico de decisões
 
 
 
-\*\*Automação:\*\*
+**Organização:**
 
-\- Integração com CI/CD
+- Aprovações obrigatórias
 
-\- GitHub Actions
+- Testes automatizados
 
-\- Verificações automáticas
-
-
-
-\### Fluxo de Pull Request
-
-1\. Criar branch e fazer commits
-
-2\. Push da branch para repositório remoto
-
-3\. Abrir Pull Request no GitHub
-
-4\. Revisão e discussão
-
-5\. Aprovação e merge
+- Proteção de branches
 
 
 
-\### Resolução de Conflitos
+**Automação:**
 
-\*\*Ferramentas:\*\*
+- Integração com CI/CD
 
-\- Interface "Files Changed" do GitHub
+- GitHub Actions
 
-\- `git diff branch1..branch2` (dois pontos)
-
-\- `git diff branch1...branch2` (três pontos)
+- Verificações automáticas
 
 
 
-\*\*Diferenças:\*\*
+### Fluxo de Pull Request
 
-\- \*\*Dois pontos (..)\*\*: todas as diferenças entre branches
+1. Criar branch e fazer commits
 
-\- \*\*Três pontos (...)\*\*: diferenças desde o ancestral comum
+2. Push da branch para repositório remoto
+
+3. Abrir Pull Request no GitHub
+
+4. Revisão e discussão
+
+5. Aprovação e merge
 
 
 
-\### Processo de Revisão
+### Resolução de Conflitos
 
-\- Análise de código
+**Ferramentas:**
 
-\- Sugestões de melhorias
+- Interface "Files Changed" do GitHub
 
-\- Aprovação obrigatória
+- `git diff branch1..branch2` (dois pontos)
 
-\- Merge após aprovação
+- `git diff branch1...branch2` (três pontos)
+
+
+
+**Diferenças:**
+
+- **Dois pontos (..)**: todas as diferenças entre branches
+
+- **Três pontos (...)**: diferenças desde o ancestral comum
+
+
+
+### Processo de Revisão
+
+- Análise de código
+
+- Sugestões de melhorias
+
+- Aprovação obrigatória
+
+- Merge após aprovação
 
 
 
 ---
 
 
-
-\## Resumo Final
-
+## Resumo Final
 
 
-\### Redes e Internet
+
+### Redes e Internet
 
 Abordamos desde fundamentos de redes e protocolos até tendências modernas como IoT e SDN, passando por segurança, infraestrutura e serviços web.
 
 
 
-\### Git e GitHub
+### Git e GitHub
 
 Exploramos o controle de versão com Git, desde conceitos básicos até colaboração avançada com branches, repositórios remotos e Pull Requests.
 
